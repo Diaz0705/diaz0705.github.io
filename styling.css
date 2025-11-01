@@ -1,1 +1,35 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 40px;
+  padding: 20px;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+nav a {
+  color: #ffcc00;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+img {
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 0.9em;
+}
 
