@@ -1,19 +1,20 @@
+/* General layout and background */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(120deg, #e3f2fd, #bbdefb);
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #c8e6ff, #e8f4ff);
   color: #333;
   margin: 0;
   padding: 0;
   line-height: 1.6;
 }
 
-/* Header styling */
+/* Header section */
 header {
-  background-color: #1565c0;
+  background: linear-gradient(90deg, #1976d2, #42a5f5);
   color: white;
   text-align: center;
-  padding: 25px 0;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  padding: 30px 0;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Navigation links */
@@ -21,7 +22,8 @@ nav a {
   color: #ffeb3b;
   text-decoration: none;
   margin: 0 15px;
-  font-weight: bold;
+  font-weight: 600;
+  transition: 0.3s;
 }
 
 nav a:hover {
@@ -29,30 +31,45 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* Main content sections */
+/* Content box */
 section {
-  max-width: 800px;
+  max-width: 850px;
   margin: 40px auto;
   background: white;
-  padding: 25px;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* Images */
 img {
   display: block;
   margin: 20px auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 15px;
   max-width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
 }
 
 /* Footer */
 footer {
   text-align: center;
-  padding: 15px;
-  background-color: #0d47a1;
+  padding: 20px;
+  background: #1565c0;
   color: white;
-  font-size: 0.9em;
+  font-size: 0.95em;
+}
+
+/* Links in footer */
+footer a {
+  color: #ffeb3b;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
